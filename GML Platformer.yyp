@@ -6,6 +6,8 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":4,},
     {"id":{"name":"Invisiblewall","path":"sprites/Invisiblewall/Invisiblewall.yy",},"order":1,},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
+    {"id":{"name":"sWalls","path":"sprites/sWalls/sWalls.yy",},"order":7,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sbackground","path":"sprites/sbackground/sbackground.yy",},"order":3,},
     {"id":{"name":"cloudS","path":"sprites/cloudS/cloudS.yy",},"order":5,},

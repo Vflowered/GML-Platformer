@@ -66,9 +66,13 @@ if (!place_meeting(x,y+1,Invisiblewall1))
 }
 else
 {
-	sprite_index = sPlayer
+	sprite_index = sPlayerW
+	image_speed = 1
 	if (hsp = 0) and (place_meeting(x,y+1,Invisiblewall1)) 
 	{
-	image_index = 1
+	sprite_index = sPlayer
 	}
+}
+if (hsp != 0) {
+	image_xscale = sign(hsp)
 }
