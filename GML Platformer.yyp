@@ -4,9 +4,13 @@
   "name": "GML Platformer",
   "resources": [
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":4,},
     {"id":{"name":"Invisiblewall","path":"sprites/Invisiblewall/Invisiblewall.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"sbackground","path":"sprites/sbackground/sbackground.yy",},"order":3,},
+    {"id":{"name":"cloudS","path":"sprites/cloudS/cloudS.yy",},"order":5,},
     {"id":{"name":"Invisiblewall1","path":"objects/Invisiblewall1/Invisiblewall1.yy",},"order":1,},
+    {"id":{"name":"sPlayerW","path":"sprites/sPlayerW/sPlayerW.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -15,6 +19,7 @@
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,

@@ -38,3 +38,37 @@ if (place_meeting(x,y+vsp,Invisiblewall1))
 	vsp = 0;
 }
 y = y + vsp; 
+
+//Animation
+
+if (!place_meeting(x,y+1,Invisiblewall1))
+{
+	sprite_index=sPlayerA 
+	if (vsp > 1.8)
+	{
+		if (vsp > 2.6) 
+		{
+		if (vsp > 4.2)
+		{
+			image_index=7
+		}
+		else image_index = 6
+	}
+	else image_index=5
+	}
+	else 
+	{
+		if (image_index > 3)
+		{
+			image_index = 4
+		}
+	}
+}
+else
+{
+	sprite_index = sPlayer
+	if (hsp = 0) and (place_meeting(x,y+1,Invisiblewall1)) 
+	{
+	image_index = 1
+	}
+}
